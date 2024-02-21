@@ -32,6 +32,14 @@ fn something {|&z=~| # ~ auto expands to $HOME
   }
 }
 
+if (has-env $E:XDG_CONFIG_HOME) {
+    echo '$E:XDG_CONFIG_HOME is '$E:XDG_CONFIG_HOME
+} elif (has-env e:XDG_DATA_HOME) {
+    echo 'e:XDG_DATA_HOME is'e:XDG_DATA_HOME
+} else {
+    echo 'no xdg variables found!'
+}
+
 # will query for existence of $HOME
 put (something)
 

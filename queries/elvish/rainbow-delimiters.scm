@@ -1,3 +1,11 @@
+(lambda
+  "{" @delimiter
+  "}" @delimiter @sentinel) @container
+
+(if
+  "{" @delimiter
+  "}" @delimiter @sentinel) @container
+
 (output_capture
   "(" @delimiter
   ")" @delimiter @sentinel) @container
@@ -22,6 +30,6 @@
   "[" @delimiter
   "]" @delimiter @sentinel) @container
 
-(lambda
-  "{" @delimiter
-  "}" @delimiter @sentinel) @container
+(parameter_list
+  "|" @delimiter
+  "|" @delimiter @sentinel) @container
