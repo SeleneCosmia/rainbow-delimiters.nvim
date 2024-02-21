@@ -48,11 +48,13 @@
 ---@field commonlisp   (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field cpp          (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field css          (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
+---@field crystal      (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field cuda         (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field cue          (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field dart         (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field elixir       (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field elm          (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
+---@field elvish       (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field fennel       (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field fish         (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field go           (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
@@ -114,11 +116,13 @@
 ---@field commonlisp   (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field cpp          (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field css          (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
+---@field crystal      (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field cuda         (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field cue          (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field dart         (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field elixir       (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field elm          (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
+---@field elvish       (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field fennel       (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field fish         (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field go           (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
@@ -180,11 +184,13 @@
 ---@field commonlisp   (integer | fun(bufnr: integer): integer)?
 ---@field cpp          (integer | fun(bufnr: integer): integer)?
 ---@field css          (integer | fun(bufnr: integer): integer)?
+---@field crystal      (integer | fun(bufnr: integer): integer)?
 ---@field cuda         (integer | fun(bufnr: integer): integer)?
 ---@field cue          (integer | fun(bufnr: integer): integer)?
 ---@field dart         (integer | fun(bufnr: integer): integer)?
 ---@field elixir       (integer | fun(bufnr: integer): integer)?
 ---@field elm          (integer | fun(bufnr: integer): integer)?
+---@field elvish       (integer | fun(bufnr: integer): integer)?
 ---@field fennel       (integer | fun(bufnr: integer): integer)?
 ---@field fish         (integer | fun(bufnr: integer): integer)?
 ---@field go           (integer | fun(bufnr: integer): integer)?
@@ -246,11 +252,13 @@
 ---| 'commonlisp'
 ---| 'cpp'
 ---| 'css'
+---| 'crystal'
 ---| 'cuda'
 ---| 'cue'
 ---| 'dart'
 ---| 'elixir'
 ---| 'elm'
+---| 'elvish'
 ---| 'fennel'
 ---| 'fish'
 ---| 'go'
