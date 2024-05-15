@@ -57,7 +57,3 @@
 (map
   "[" @delimiter
   "]" @delimiter @sentinel) @container
-
-(parameter_list
-  "|" @delimiter
-  "|" @delimiter @sentinel) @container
