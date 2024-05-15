@@ -12,12 +12,24 @@ Versioning`_.
 Unreleased
 ##########
 
+- Missing patterns for Common Lisp:
+   - `loop_macro`
+- Missing patterns for Javascript:
+   - `array_pattern`
+   - `for_in_statement`
+   - `for_statement`
+
+
+[0.4.0] - 2024-05-07
+####################
+
 Added
 =====
 
 - Public API function `is_enabled`
 - Rasi support
 - Svelte support
+- Teal support
 - Typst support
 - XML support
 - Missing patterns for Java:
@@ -49,6 +61,11 @@ Added
    - `interpolation` (literal string interpolation)
    - `list_pattern`
    - `tuple_pattern`
+- Missing patterns for R:
+   -  `for`
+   -  `while`
+   -  `switch`
+   -  `function_definition`
 - Missing patterns for Rust:
    - `array_type`
 - Missing patterns for Starlark:
