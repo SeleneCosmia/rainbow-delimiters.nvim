@@ -15,7 +15,7 @@
 
 ---@class (exact) rainbow_delimiters.buffer_settings
 ---@field strategy rainbow_delimiters.strategy
----@field parser LanguageTree
+---@field parser vim.treesitter.LanguageTree
 ---@field lang string
 
 
@@ -102,6 +102,7 @@
 ---@field vim          (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field vimdoc       (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field vue          (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
+---@field wgsl         (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field yaml         (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---@field zig          (rainbow_delimiters.strategy | fun(bufnr: integer): rainbow_delimiters.strategy?)?
 ---User defined language, not part of rainbow_delimiters support
@@ -171,6 +172,7 @@
 ---@field vim          (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field vimdoc       (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field vue          (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
+---@field wgsl         (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field yaml         (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---@field zig          (('rainbow-delimiters' | string) | fun(bufnr: integer): ('rainbow-delimiters' | string))?
 ---User defined language, not part of rainbow_delimiters support
@@ -240,6 +242,7 @@
 ---@field vim          (integer | fun(bufnr: integer): integer)?
 ---@field vimdoc       (integer | fun(bufnr: integer): integer)?
 ---@field vue          (integer | fun(bufnr: integer): integer)?
+---@field wgsl         (integer | fun(bufnr: integer): integer)?
 ---@field yaml         (integer | fun(bufnr: integer): integer)?
 ---@field zig          (integer | fun(bufnr: integer): integer)?
 ---User defined language, not part of rainbow_delimiters support
@@ -309,6 +312,7 @@
 ---| 'vim'
 ---| 'vimdoc'
 ---| 'vue'
+---| 'wgsl'
 ---| 'yaml'
 ---| 'zig'
 ---User defined language, not part of rainbow_delimiters support

@@ -14,7 +14,7 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
-(for_each_statement
+(foreach_statement
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
@@ -35,6 +35,10 @@
   ")" @delimiter @sentinel) @container
 
 (tuple_expression
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
+
+(tuple_pattern
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
@@ -82,11 +86,11 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
-(type_of_expression
+(typeof_expression
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
-(size_of_expression
+(sizeof_expression
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
@@ -103,10 +107,6 @@
   "}" @delimiter @sentinel) @container
 
 (block
-  "{" @delimiter
-  "}" @delimiter @sentinel) @container
-
-(interpolation
   "{" @delimiter
   "}" @delimiter @sentinel) @container
 
@@ -142,6 +142,6 @@
   "[" @delimiter
   "]" @delimiter @sentinel) @container
 
-(implicit_stack_alloc_array_creation_expression
+(implicit_stackalloc_expression
   "[" @delimiter
   "]" @delimiter @sentinel) @container
